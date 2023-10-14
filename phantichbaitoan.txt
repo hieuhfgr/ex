@@ -1,0 +1,12 @@
+đọc ảnh từ user
+
+- đầu tiên hiển thị màn hình và nếu user làm động tác gì đó thì bắt đầu trò chơi.
+Khi bắt đầu trò chơi thì sẽ lấy những dữ liệu hình ảnh. Khi chưa lấy được dữ liệu
+thì sẽ hiển thị 3 hình ảnh lần lượt là 0, 2, 5 để cho người chơi biết người chơi
+chọn cái nào
+
+- nếu hand landmark trong hình ảnh 0, 2, 5
++ lấy ra búa / kéo / bao dựa trên các đốt ngón tay
++ gọi hàm random để lấy búa, kéo, bao của bot
++ kiểm tra xem ai win và in trong frame
++ kết thúc trò chơi (hiển thị màn hình kết thúc)
